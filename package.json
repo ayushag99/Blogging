@@ -1,0 +1,28 @@
+{
+  "name": "blogging-website",
+  "version": "1.0.0",
+  "description": "A blogging website project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ayush",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "dotenv": "^6.0.0",
+    "edge.js": "^1.1.4",
+    "express": "^4.16.3",
+    "express-edge": "^1.0.0",
+    "express-fileupload": "^1.0.0-alpha.1",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.17",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
